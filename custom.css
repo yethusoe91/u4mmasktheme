@@ -222,10 +222,14 @@ table.qa-form-wide-table td
 table.qa-form-wide-table td, .qa-top-users-table td {
 	background: rgb(253, 245, 245);
 	padding: 10px 14px;
-	
+
 }
 
 
 a.qa-nav-main-link.qa-nav-main-selected {
 	background: #8C1010;
+}
+
+:focus {
+  outline: none;
 }
