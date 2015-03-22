@@ -90,7 +90,7 @@ input.qa-vote-first-button
 	border-radius: 50%;
 	position: relative;
 }
-	
+
 input.qa-vote-second-button
 {
 	background: #de4508;
@@ -213,11 +213,19 @@ input.qa-vote-second-button
 }
 
 table.qa-form-wide-table {
-  width: 516px;
+	width: 516px;
+}
+table.qa-form-wide-table td
+{
+	border-bottom: 1px dashed rgb(134, 75, 75);
+}
+table.qa-form-wide-table td, .qa-top-users-table td {
+	background: rgb(253, 245, 245);
+	padding: 10px 14px;
+	
 }
 
-table.qa-form-wide-table td {
-  background: rgb(253, 245, 245);
-  padding: 10px 14px;
-  border-bottom: 1px dashed rgb(134, 75, 75);
+
+a.qa-nav-main-link.qa-nav-main-selected {
+	background: #8C1010;
 }
