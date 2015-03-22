@@ -14,6 +14,7 @@ class qa_html_theme extends qa_html_theme_base
 
 	function head_css()
 	{
+		qa_html_theme_base::head_css();
 		$this->output('<link rel="stylesheet" href="'. $this->rooturl.'css/bootstrap.css" type="text/css"/>');
 		$this->output('<link rel="stylesheet" href="'. $this->rooturl.'custom.css" type="text/css"/>');
 
@@ -21,6 +22,7 @@ class qa_html_theme extends qa_html_theme_base
 
 	public function head_script()
 	{
+		qa_html_theme_base::head_script();
 		$this->output('<script src="' . $this->rooturl .'js/jquery-1.11.0.min.js"></script>');
 		$this->output('<script src="' . $this->rooturl .'js/bootstrap.js"></script>');
 	}
