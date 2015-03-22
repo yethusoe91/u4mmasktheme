@@ -532,6 +532,10 @@ a.qa-tag-link
 {
 	background-color: #EFF4F7;
 }
+.qa-sidepanel
+{
+	width:186px;
+}
 :focus
 {
 	outline: none;
