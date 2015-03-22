@@ -90,7 +90,7 @@ input.qa-vote-first-button
 	border-radius: 50%;
 	position: relative;
 }
-
+	
 input.qa-vote-second-button
 {
 	background: #de4508;
@@ -210,4 +210,14 @@ input.qa-vote-second-button
 	padding: 16px 0;
 	display: block;
 	font-size: 19px;
+}
+
+table.qa-form-wide-table {
+  width: 516px;
+}
+
+table.qa-form-wide-table td {
+  background: rgb(253, 245, 245);
+  padding: 10px 14px;
+  border-bottom: 1px dashed rgb(134, 75, 75);
 }
