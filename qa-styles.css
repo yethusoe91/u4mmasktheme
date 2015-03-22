@@ -511,7 +511,10 @@ a
   zoom: 1;
   border: 1px dashed rgb(231, 212, 212);
 }
-
+.qa-logo
+{
+	margin-bottom: -9px;
+}
 .qa-logo img {
   margin-left: 27px;
 }
