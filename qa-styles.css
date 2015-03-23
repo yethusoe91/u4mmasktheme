@@ -579,6 +579,19 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		-moz-osx-font-smoothing: grayscale;
 		transform: translate(0, 0);
 	}
+	
+	.qa-widget-side {
+	  margin: 16px 0;
+	  width: 205px;
+	}
+	#mostactiveusers {
+		padding: 1px 9px;
+		border: 1px solid #DDD;
+		border-radius: none;
+		box-shadow: none;
+		background:none;
+	}
+
 	:focus
 	{
 		outline: none;
