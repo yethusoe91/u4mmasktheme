@@ -587,7 +587,7 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		width: 176px;
 	}
 
-	.qa-widget-side a.qa-avatar-link {
+	.qa-widget-side a.qa-avatar-link, .bestusers a.qa-avatar-link{
 		display: none;
 	}
 	#mostactiveusers {
@@ -598,6 +598,16 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		background:none;
 	}
 
+	.bestusers
+	{
+		  padding: 24px 9px;
+		  border: 1px solid #DDD;
+		  background: rgb(250, 249, 249);
+		}
+	.bestusers
+	{
+		margin-left: -23px;
+	}
 	.qa-q-item-main
 	{
 		padding: 11px 5px;
