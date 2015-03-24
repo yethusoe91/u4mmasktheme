@@ -436,4 +436,178 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	.qa-part-form-plugin-options {margin-top: -1px;}
 
 
-@import url('https://raw.githubusercontent.com/yfly/u4mmasktheme/master/customsyles.css');
+	/* Customize */
+
+	.qa-voting
+	{
+		border-radius: 50%;
+		height: 50px;
+	}
+
+	.qa-a-count
+	{
+		border: none;
+		background: none;
+	}
+
+	.qa-search-field{
+		margin-top: 10px;
+		font-size: 14px;
+		line-height: 1.42857143;
+		color: #555;
+		background-color: #fff;
+		background-image: none;
+		border: 1px solid #ccc;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+		-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+		-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+		transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	}
+	input.qa-search-button{
+		display: inline-block;
+		margin-top: -2px;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 1.42857143;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-ms-touch-action: manipulation;
+		touch-action: manipulation;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		background-color: #DE4508;
+		color: #FFF;
+		background-image: none;
+		border: 1px solid transparent;
+	}
+
+	.qa-nav-main-list li a
+	{
+		color: #FFF !important;
+	}
+	a
+	{
+		color: #DE4508 !important;
+	}
+	.qa-nav-main-link
+	{
+		padding: 17px 11px;
+	}
+
+	.qa-voting
+	{
+		background: none;
+		border:none;
+	}
+	.qa-a-count
+	{
+		width:40px;
+	}
+	.qa-q-list-item {
+		margin-bottom: 24px;
+		padding: 8px 4px;
+		zoom: 1;
+		border: 1px dashed rgb(231, 212, 212);
+	}
+	.qa-logo
+	{
+		margin-bottom: -9px;
+	}
+	.qa-logo img {
+		margin-left: 27px;
+		height: 80px;
+		width: 71px;
+	}
+	a.qa-tag-link
+	{
+		background: #DE4508;
+	}
+
+	.qa-nav-sub-link:hover, .qa-nav-sub-selected
+	{
+		background: #9cdbce;
+	}
+
+	.qa-form-tall-table
+	{
+		background-color: #EFF4F7;
+	}
+	.qa-sidepanel
+	{
+		width:186px;
+	}
+
+	.qa-nav-main-hot .qa-nav-main-link {
+		background: #760E6D;
+	}
+
+	.qa-nav-main-hot .qa-nav-main-link:hover, .qa-nav-main-hot .qa-nav-main-selected {
+		background: #3C0C38;
+	}
+
+	.qa-sidebar {
+		padding: 13px 5px;
+		font-size: 13px;
+		background: #E4AC44;
+		margin: 27px 0;
+		border-radius: 9px;
+	}
+
+	.entry-content {
+		padding: 22px 11px;
+		background: rgb(250, 246, 246);
+		font-family:Zawgyi-One !important;
+		margin: 14px 0;
+	}
+	.qa-nav-main-hot{
+		position: relative;
+	}
+	.qa-nav-main-hot:before {
+		content: "\f0a3";
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		position: absolute;
+		color: #AEB224;
+		top: -7px;
+		right: 20px;
+		font-size: 22px;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		transform: translate(0, 0);
+	}
+
+	.qa-widget-side {
+		margin: 16px 0;
+		width: 176px;
+	}
+
+	.qa-widget-side a.qa-avatar-link {
+		display: none;
+	}
+	#mostactiveusers {
+		padding: 1px 9px;
+		border: 1px solid #DDD;
+		border-radius: none;
+		box-shadow: none;
+		background:none;
+	}
+
+	.qa-q-item-main
+	{
+		padding: 11px 5px;
+	}
+	.qa-q-item-title
+	{
+		margin-bottom: 4px;
+	}
+	:focus
+	{
+		outline: none;
+	}
+
