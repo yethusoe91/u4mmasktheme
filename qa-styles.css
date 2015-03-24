@@ -591,26 +591,26 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		display: none;
 	}
 	#mostactiveusers {
-		padding: 1px 9px;
-		border: 1px solid #DDD;
-		border-radius: none;
-		box-shadow: none;
-		background:none;
+		padding: 1px 9px !important;
+		border: 1px solid !important;
+		border-radius: none !important;
+		box-shadow: none !important;
+		background:none !important;
 	}
 
 	.bestusers
 	{
-		  padding: 13px 10px;
-		  border: 1px solid #DDD;
-		  background: rgb(250, 249, 249);
+		  padding: 13px 10px !important;
+		  border: 1px solid #DDD !important;
+		  background: rgb(250, 249, 249) !important;
 		}
 	.bestusers
 	{
-		margin-left: -23px;
+		margin-left: -23px !important;
 	}
 	.qa-q-item-main
 	{
-		padding: 11px 5px;
+		padding: 11px 5px !important;
 	}
 	.qa-q-item-title
 	{
