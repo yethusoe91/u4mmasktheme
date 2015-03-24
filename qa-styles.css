@@ -509,10 +509,10 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		width:40px;
 	}
 	.qa-q-list-item {
-		margin-bottom: 24px;
-		padding: 8px 4px;
-		zoom: 1;
-		border: 1px dashed rgb(231, 212, 212);
+		margin-bottom: 5px;
+  		padding: 0 10px;
+  		zoom: 1;
+  		border: 1px dashed rgb(231, 212, 212);	
 	}
 	.qa-logo
 	{
@@ -583,15 +583,15 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	}
 
 	.qa-widget-side {
-		margin: 16px 0;
-		width: 176px;
+	  margin: 18px 0;
+	  width: 257px;
 	}
 
 	.qa-widget-side a.qa-avatar-link, .bestusers a.qa-avatar-link{
 		display: none;
 	}
 	#mostactiveusers {
-		padding: 1px 9px !important;
+		padding: 10px 9px !important;
 		border: 1px solid !important;
 		border-radius: none !important;
 		box-shadow: none !important;
@@ -613,12 +613,16 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 
 	.qa-q-item-main
 	{
-		padding: 11px 5px !important;
+		padding: 11px 7px !important;
 	}
 	.qa-q-item-title
 	{
 		margin-bottom: 4px;
 	}
+	.qa-sidepanel {
+	  	width: 260px !important;
+	} 
+	
 	:focus
 	{
 		outline: none;
