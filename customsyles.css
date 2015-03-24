@@ -168,3 +168,8 @@ a.qa-tag-link
 {
 	margin-bottom: 4px;
 }
+
+:focus
+{
+	outline: none;
+}
