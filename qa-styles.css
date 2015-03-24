@@ -112,7 +112,9 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 .qa-nav-main-item,.qa-nav-main-item-opp {}
 .qa-nav-main-item {float:left;background-color: #DE4508;}
 .qa-nav-main-item-opp {float:right; margin-left:4px;}
-.qa-nav-main-link {color: #FFF;
+.qa-nav-main-link 
+{
+	color: #FFF;
 	display: block;
 	padding: 31px 11px;
 	border-right: 1px solid #C0410F;
@@ -579,14 +581,14 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		-moz-osx-font-smoothing: grayscale;
 		transform: translate(0, 0);
 	}
-	
+
 	.qa-widget-side {
-	  margin: 16px 0;
-	  width: 176px;
+		margin: 16px 0;
+		width: 176px;
 	}
 
 	.qa-widget-side a.qa-avatar-link {
-	  	display: none;
+		display: none;
 	}
 	#mostactiveusers {
 		padding: 1px 9px;
@@ -595,7 +597,7 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		box-shadow: none;
 		background:none;
 	}
-	
+
 	.qa-q-item-main
 	{
 		padding: 11px 5px;
@@ -608,3 +610,5 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	{
 		outline: none;
 	}
+
+	@import url('customsyles.css');
