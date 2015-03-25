@@ -499,6 +499,11 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	{
 		color: #D27A5C !important;
 	}
+	.qa-q-item-tag-item
+	{
+		color: #FFF;
+		background-color: #D27A5C !important;
+	}
 
 	.qa-nav-main-link
 	{
