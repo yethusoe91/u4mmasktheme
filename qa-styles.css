@@ -494,10 +494,13 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	{
 		color: #DE4508 !important;
 	}
-
 	a
 	{
-		color: #D27A5C !important;
+		color: #DE4508 !important;
+	}
+	.qa-q-item-meta a
+	{
+		color: #DE4508 !important;
 	}
 	.qa-q-item-tag-item
 	{
