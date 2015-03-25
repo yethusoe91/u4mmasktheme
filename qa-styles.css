@@ -552,8 +552,8 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 		  font: normal normal normal 14px/1 FontAwesome;
 		  position: absolute;
 		  color: #2B2C27;
-		  top: 1px;
-		  left: -9px;
+		   top: 5px;
+  			left: -14px;
 		  font-size: 14px;
 		  text-rendering: auto;
 		  -webkit-font-smoothing: antialiased;
