@@ -504,7 +504,7 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	.qa-q-item-tag-item
 	{
 		color: #FFF;
-		background-color: #D27A5C !important;
+		  margin-left: 13px;
 	}
 
 	.qa-nav-main-link
@@ -547,18 +547,18 @@ h2 {font-size:16px; padding-top:12px; clear:both;}
 	}
 
 	a.qa-tag-link:before {
-		content: "\f02b";
-		display: inline-block;
-		font: normal normal normal 14px/1 FontAwesome;
-		/* position: absolute; */
-		color: #AEB224;
-		top: -7px;
-		right: 20px;
-		font-size: 22px;
-		text-rendering: auto;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-		transform: translate(0, 0);
+			content: "\f02b";
+		  display: inline-block;
+		  font: normal normal normal 14px/1 FontAwesome;
+		  position: absolute;
+		  color: #2B2C27;
+		  top: 1px;
+		  left: -9px;
+		  font-size: 14px;
+		  text-rendering: auto;
+		  -webkit-font-smoothing: antialiased;
+		  -moz-osx-font-smoothing: grayscale;
+		  transform: translate(0, 0);
 	}
 
 	.qa-nav-sub-link:hover, .qa-nav-sub-selected
